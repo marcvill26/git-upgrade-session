@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Share Tech Mono', monospace;
+    margin:0;
+    background:#ea3546;
+}
+.form{
+    display:flex;
+    justify-content:center;
+    margin-top:15%; 
+    text-align:center;
+}
+.form__container{
+   background:#929292;
+    width:420px;
+    height:450px;
+    border-radius:10px;
+    
+}
+
+.form__input{
+    border-radius:10px;
+    border:none;
+    margin:1em;
+    width:80%;
+    height:30px;
+    padding:0 20px;
+}
+.form__legend{
+    display:none;
+    padding:10px;
+    color:rgb(0, 0, 0);
+    border-bottom:1px solid lightgrey;
+    
+}
+.form__fieldset{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    background:none;
+    border:none;
+    height:450px;
+}
+.form__buton{
+    border-radius:10px;
+    border:none;
+    width:20%;
+    height:25px;
+    cursor:pointer;
+}
+.form__buton:hover{
+    background:#ffd166;
+    color:white;
+}
+    
+

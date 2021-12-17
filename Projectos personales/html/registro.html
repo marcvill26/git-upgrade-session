@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styleregistro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+       <body>
+           <form class="form">
+               <div class="form__container">
+               <fieldset class="form__fieldset">
+                   <legend class="form__legend">Datos Personales</legend>
+                   <div>
+                       <lable for="fname"class="form__label"></lable>
+                       <input id="fname"type="text"placeholder="Ingrese Nombre"required class="form__input">
+                   </div>
+                   <div>
+                       <label for="lname"class="form__label"></label>
+                       <input id="lname"type="text"placeholder="Ingrese Apellidos"class="form__input"required>
+                   </div>
+                   <div>
+                       <label for="date"class="form__label"></label>
+                       <input id="date"type="date"class="form__input">
+                   </div>
+                   <div>
+                       <label for="nick"class="form__label"></label>
+                       <input id="nick"type="text"placeholder="Ingrese Nick"class="form__input"required>
+                   </div>
+                   <div>
+                       <label for="passw"class="form__label"></label>
+                       <input id="passw"type="password"minlength="10"placeholder="ingrese contraseña"class="form__input"required>
+                   </div>
+                   <div>
+                       <label for="email"class="form__label"></label>
+                       <input id="email"class="form__input"type="email"required placeholder="Ingrese Correo">
+                       <button type="submit" class="form__buton">Enviar</button>
+                    </div>
+                  
+                   
+               </fieldset>
+               </div>
+           </form>
+       </body>
+</html>

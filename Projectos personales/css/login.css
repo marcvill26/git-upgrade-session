@@ -1,0 +1,50 @@
+body{
+    font-family: 'Share Tech Mono', monospace;
+    margin:0;
+    background:#ea3546;
+}
+.loging{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15%;
+}
+.loging__input{
+    margin:10px;
+    width:85%;
+    height:30px;
+    border-radius:10px;
+    padding:0 20px;
+    border:none;
+
+}
+.loging__container{
+    background:lightslategray;
+    width:350px;
+    height:220px;
+    border-radius:10px;
+}
+.loging__legend{
+    padding:15px;
+  text-align:center;
+}
+.loging__field
+{
+    
+   display:flex;
+   flex-direction:column;
+    border:none;
+}
+.loging__buton{
+    border-radius:10px;
+    border:none;
+    height:25px;
+    width:35%;
+   position:relative;
+   right:-8px;
+   cursor:pointer;
+}
+.loging__buton:hover{
+    background:#ffd166;
+    color:white;
+}

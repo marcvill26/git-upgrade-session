@@ -1,0 +1,175 @@
+/*font-family: 'Zen Kaku Gothic New', sans-serif; PARA TITULO*/
+/*font-family: 'Monoton', cursive;*/
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin:0;
+}
+.menu{
+    display:flex;
+   
+    justify-content:flex-end;
+    height:4rem;
+    align-items:center;
+    position:fixed;
+    width:100%;
+   z-index:2;
+}
+.menu__link{
+    
+    margin-right:3rem;
+    color:white;
+    text-decoration:none;
+   
+    text-transform: uppercase;
+}
+
+.menu__link:hover{
+    
+    color:#ef476f;
+    transition:0.5s;
+}
+
+.menu__search{
+    padding:0 20px;
+    margin-right:5%;
+    width:30%;
+    height:35px;
+    border-radius:10px;
+    border:none;
+}
+.gallery{
+    max-width:100vw;
+    max-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    
+}
+.gallery__item{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:600px;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+    margin:20px;
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-position:center center;
+}
+.gallery__item--item1{
+    background-image:url(../imagenes/Cocinar.jpg);
+}
+.gallery__item--item2{
+    background-image:url(../imagenes/bares.jpg);
+}
+.gallery__item--item3{
+    background-image:url(../imagenes/Restaurante.jpg);
+}
+.principal{
+    max-width: 100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+   
+}
+.principal__container{
+    position:relative;
+    z-index:1;
+
+}
+video{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+.principal__title{
+    font-family: 'Orbitron', sans-serif;
+    font-size:80px;
+    color:aqua;
+   
+}
+.principal__title--title1{
+    color:#ef476f;
+}
+.principal__title--title2{
+    color:#ffd166;
+}
+.gallery__title{
+    padding:10px;
+    color:#ffd166;
+    cursor:pointer;
+    text-transform:uppercase;
+    background-color: rgba(170, 164, 164, 0.5);
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:200px;
+    max-width:100vw;
+    max-height:100vh;
+    background-color:#e63946;
+    
+}
+.container__redes{
+    cursor:pointer;
+    transition:0.5s;
+}
+.container__redes:hover{
+    color:#ffba08;
+}
+.container__ico{
+    display:flex;
+    justify-content:center;
+    
+    padding:10px;
+}
+.container__image{
+    width:20px;
+    height:20px;
+}
+@media screen and (max-width:576px){
+    .container{
+        flex-direction:column;
+    }
+}
+@media screen and (max-width:576px){
+    .gallery{
+        flex-direction: column;
+        text-align:center;
+    }
+}
+@media screen and (max-width:576px){
+    .gallery__item{
+        width:85%;
+    }
+}
+@media screen and (max-width:576px){
+    .principal__title{
+        text-align: center;
+        font-size:50px;
+    }
+}
+@media screen and (max-width:576px){
+    .menu{
+        flex-direction:column;
+        margin-top:20%;
+     
+        
+    }
+}
+@media screen and (max-width:576px){
+    .menu__link{
+        padding:0.5rem;
+        
+
+    }
+}
