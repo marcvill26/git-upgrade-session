@@ -78,8 +78,7 @@ right:30%;
     color:rgb(255, 174, 0);
 }
 .gallery{
-    max-width:100vw;
-    max-height:100vh; 
+   
     display:flex;
     justify-content:center;
     align-items:center;
