@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:2px;
+}
+.logo{
+    display:flex;
+    height: 4rem;
+    z-index:4;
+    align-items:center;
+    justify-content:flex-end;
+    position:fixed;
+    width:100%;
+    background-color:white;
+    
+}
+.logo__title{
+position:relative;
+right:30%;
+}
+.logo__search{
+    position:relative;
+    border:none;
+    background:none;
+    border-bottom:solid 1px black;
+    right:5%;
+    padding:0 25px;
+}
+.icon--search{
+    position:relative;
+    line-height:2%;
+    right:16%;
+}
+.logo__icon{
+    position:relative;
+    right: 4%;
+    Margin:10px;
+    cursor:pointer;
+    
+}
+.menu-tipo{
+    z-index:3;
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    padding:0.5rem;
+    
+}
+.menu-tipo--genero{
+    position:relative;
+    top:100px;
+   font-size:20px;
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+}
+.menu-tipo--genero:hover{
+    color:lightslategrey;
+}
+.menu{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    padding:1rem;
+}
+.menu__link{
+    color:black;
+    position:relative;
+    top:90px;
+    text-decoration:none;
+    transition:0.5s;
+    z-index:2
+}
+.menu__link:hover{
+    color:lightslategrey;
+}
+.menu__link--menu-1{
+    color:rgb(255, 174, 0);
+}
+.gallery{
+    max-width:100vw;
+    max-height:100vh; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    position:relative;
+    text-align:center;
+   
+}
+.gallery__Img{
+    background-size:cover;
+    background-position:center;
+    box-shadow: rgba(0, 0, 0, 0.185) 0px 5px 15px;
+    margin:2rem;
+    height:450px;
+    width:300px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    z-index:1;
+}
+.gallery__descrip{
+    position:relative;
+    top:100%;
+}
+.galerry__img--img1{
+    background-image:url(../images/img1.jpg);
+}
+
+.galerry__img--img2{
+    background-image:url(../images/img2.jpg);
+}
+.galerry__img--img3{
+    background-image:url(../images/img3.jpg);
+}
+.galerry__img--img4{
+    background-image:url(../images/img4.jpg);
+}
+.galerry__img--img5{
+    background-image:url(../images/img5.jpg);
+}
+.galerry__img--img6{
+    background-image:url(../images/img6.jpg);
+}
+.galerry__img--img7{
+    background-image:url(../images/img7.jpg);
+}
+.galerry__img--img8{
+    background-image:url(../images/img8.jpg);
+}
+.galerry__img--img9{
+    background-image:url(../images/img9.jpg);
+}
+.galerry__img--img10{
+    background-image:url(../images/img10.jpg);
+}
+.galerry__img--img11{
+    background-image:url(../images/img11.jpg);
+}
+.galerry__img--img12{
+    background-image:url(../images/img12.jpg);
+}
+.galerry__img--img13{
+    background-image:url(../images/img13.jpg);
+}
+.galerry__img--img14{
+    background-image:url(../images/img14.jpg);
+}
+.galerry__img--img15{
+    background-image:url(../images/img15.jpg);
+}
+.galerry__img--img16{
+    background-image:url(../images/img16.jpg);
+}
+.galerry__img--img17{
+    background-image:url(../images/img17.jpg);
+}
+.galerry__img--img18{
+    background-image:url(../images/img18.jpg);
+}
+.galerry__img--img19{
+    background-image:url(../images/img19.jpg);
+}
+.galerry__img--img20{
+    background-image:url(../images/img20.jpg);
+}
+.galerry__img--img21{
+    background-image:url(../images/img21.jpg);
+}
+.galerry__img--img22{
+    background-image:url(../images/img22.jpg);
+}
+.galerry__img--img23{
+    background-image:url(../images/img23.jpg);
+}
+
