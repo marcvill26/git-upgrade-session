@@ -39,12 +39,12 @@ right:30%;
     
 }
 .menu-tipo{
-    z-index:3;
+    z-index:999;
     display:flex;
     flex-direction:row;
     position:relative;
     padding:0.5rem;
-    
+    position:fixed;
 }
 .menu-tipo--genero{
     position:relative;
@@ -53,26 +53,29 @@ right:30%;
     text-decoration:none;
     color:black;
     transition:0.5s;
+   
 }
 .menu-tipo--genero:hover{
-    color:lightslategrey;
+    color:rgb(133, 194, 247);
 }
 .menu{
     display:flex;
     flex-direction:column;
     position:relative;
     padding:1rem;
+    position:fixed;
+    z-index:9;
 }
 .menu__link{
     color:black;
     position:relative;
-    top:90px;
+    top:125px;
     text-decoration:none;
     transition:0.5s;
     z-index:2
 }
 .menu__link:hover{
-    color:lightslategrey;
+    color:rgb(167, 174, 180);
 }
 .menu__link--menu-1{
     color:rgb(255, 174, 0);
@@ -172,4 +175,64 @@ right:30%;
 .galerry__img--img23{
     background-image:url(../images/img23.jpg);
 }
-
+.aside{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:100px;
+    
+}
+.aside__header{
+    border-bottom:1px solid rgb(110, 109, 109);
+}
+.aside__title{
+    font-family: 'Rock 3D', cursive;
+    font-size:30px;
+    color:rgb(211, 124, 245);
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:200px;
+    background-color:rgb(255, 255, 255);
+    border-top: solid 1px rgb(207, 201, 201);
+}
+.footer__link{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+  
+}
+.footer__link:hover{
+    color:rgb(228, 206, 8);
+}
+.footer__list{
+    display:flex;
+    flex-direction:column;
+}
+@media screen and (max-width:576px){
+    .aside__title{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        font-size:15px;
+    }
+}
+@media screen and (max-width:768px) {
+    .aside__title{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+       
+    }
+}
+@media screen and (max-width:992px)and (min-width:1200) {
+    .aside__title{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+       
+    }
+}
