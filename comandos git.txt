@@ -1,0 +1,30 @@
+1. cd (navegar entre carpetas)
+2. cd.. (volver una carpeta atrás)
+3. mkdir + name (crear una nueva carpeta)
+4. notepad + file1.txt (crear un nuevo archivo .txt) cat > file1.txt en Mac
+5. type file1.txt (ver el contenido del archivo) cat en Mac 
+6. dir (muestra los archivos dentro de una carpeta) ls en Mac 
+7. start file1.txt (abrir archivo) open en Mac
+
+ 
+
+Git:
+
+ 
+
+1. git init (crear repositorio local)
+2. git status (nuestra los archivos que están dentro del repositorio local)
+3. git add . (agregar todos los archivos) / git add + name (para agregar un archivo en concreto)
+4. git reset file2.txt (remover un archivo concreto antes de hacer commit)
+5. git commit -m “description” (crear un commit)
+6. git reset HEAD~1 (revert commits)
+7. git branch (chequear en cuál rama estoy)
+8. git branch + name (crear una nueva rama)
+9. git checkout + branch name (cambiar de rama)
+10. git checkout master (ir a la rama master)
+11. git log (muestra los commits que he hecho)
+
+ git config --global user.email tuemail@ejemplo.com
+
+git remote add origin + link para agregar repositorio remoto
+git push -u origin master [la primera vez para subir los cambios al repositorio remoto, luego solo git push]

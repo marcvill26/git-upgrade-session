@@ -24,12 +24,24 @@ right:30%;
     background:none;
     border-bottom:solid 1px black;
     right:5%;
-    padding:0 25px;
+    padding:0 20px;
+    outline: none;
+    width:200px;
+    
+}
+
+.logo__search::placeholder{
+    color:rgb(150, 149, 149);
+}
+.logo__search .search-outline{
+    position:absolute;
+    transform:translateY(-50%);
+    padding-right:10px
 }
 .icon--search{
     position:relative;
-    line-height:2%;
-    right:16%;
+    line-height:3%;
+    right:15%;
 }
 .logo__icon{
     position:relative;
