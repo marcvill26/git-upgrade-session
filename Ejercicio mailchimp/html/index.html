@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form class="form">
+            <fieldset class="form__field">
+                <legend class="form__legend">
+                    <div class="form__image">
+                        <img src="../images/mailchimp.jpg" class="form__img">
+                        </div>
+                    <div class="form__header">
+                        <h1 class="form__title">
+                            Welcome to Mailchimp
+                        </h1>
+                        <p class="form__text">
+                            Create an account or <a href="#" class="form__link">Log in</a>
+                        </p>
+                    </div>
+                    <div class="container">
+                    <label for="email"class="form__label">Email</label>
+                    <input type="email"id="email"required class="form__input">
+                    <label for="user-name"class="form__label">User Name</label>
+                    <input id="user-name"type="text"class="form__input"required>
+                    <label for="passw"class="form__label">Password</label>
+                    <input id="passw"class="form__input"type="password"required pattern="[A-Za-z0-9]{5}">
+                    <div class="form__footer"><br>
+                        <input type="checkbox"id="check">
+                        <label for="marketing" class="form__marketing">I don't want to receive <a href="#">promotional emails</a>from MailChimp.</label><br>
+                    </div>
+                </div>
+                    <div class="form__end">
+                        <p class="form__parrafo">
+                            By clicking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="https://mailchimp.com/legal/terms/">Terms of Use</a> and <a href="https://mailchimp.com/legal/privacy/">Privacy Policy.</a>
+                        </p>
+                        <button class="form__button">Sing Up</button>
+                    </div>
+                   
+                </legend>
+            </fieldset>
+            
+        </form>
+        <footer>
+            <p class="copyright">Ⓒ2001-2021 All Rights Reserved.Mailchimp is a registered trademark of The Rocket Science Group,LLC.</p>
+        </footer>
+       
+    </body>
+</html>
