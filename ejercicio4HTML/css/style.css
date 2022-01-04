@@ -105,84 +105,176 @@ body{
     
 }
 .gallery{
-   
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows:minmax(270px, 1fr);
-    grid-auto-flow:dense;
-    justify-content:center;
-    padding:10%;
-    justify-content:center;
-    position:relative;
-    margin:1rem;
-}
-
-.gallery__img{
-    background-size:cover;
-    background-position:center;
-    height:150px;
-    width:300px;
-    
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 5px 15px;
-    z-index:700;
-}
-.gallery__img-cabrio-serie-2{
-    background-image:url(../images/bmw-serie-2-cabrio.jpg);
-}
-.gallery__img-cabrio-serie-4{
+    grid-gap:6rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   grid-auto-rows: minmax(250px, 1fr);
+   grid-auto-flow: dense;
+   padding:15%;
+   
+   
+  }
+  .gallery__img{
+      background-size:cover;
+      background-position:center;
+      width:300px;
+      height:150px;
+      position:relative;
+      top:-25%;
+    }
+  .gallery__img--img1{
+      background-image:url(../images/bmw-serie-2-cabrio.jpg);
+  }
+  .gallery__info{
+       position:relative;
+      top:95%;
+  }
+  .gallery__link{
+      display:flex;
+      flex-direction:column;
+      text-decoration:none;
+      color:black;
+      transition:0.3s;
+  }
+  .gallery__link:hover{
+      color:chocolate;
+  }
+  .gallery__img--img2{
     background-image:url(../images/Bmw-serie4.jpg);
 }
-.gallery__img-cabrio-serie-8{
-    background-image:url(../images/Bmw-serie8.jpg);
+.gallery__img--img3{
+    background-image:url(../images/bmw-serie-8-cabrio.jpg);
 }
-.gallery__img-cabrio-serie-m240i{
+.gallery__img--img4{
     background-image:url(../images/bmw-m240.jpg);
 }
-.gallery__img-cabrio-serie-m4{
+.gallery__img--img5{
     background-image:url(../images/BMW-M4-Cabrio.jpg);
 }
-.gallery__body{
-
+.cards{
+    display:grid;
+    grid-gap:6rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   grid-auto-rows: minmax(250px, 1fr);
+   grid-auto-flow: dense;
+   padding:15%;
+ 
+}
+.cards__card{
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    width:300px;
+    height:150px;
+   top:-70%;
+  
+}
+.cards__card--virtual-bmw{
+    
+    background-image:url(../images/visita-virtual.jpg);
+}
+.cards__card--news-bmw{
+    background-image:url(../images/bmw-news.jpg);
+}
+.cards__card--bmw-taller{
+    background-image:url(../images/cita-taller.jpg);
+}
+.cards__info{
+    
     position:relative;
     top:95%;
 }
-.gallery__link{
+.cards__link{
     text-decoration:none;
     color:black;
-    transition:0.2s;
+    transition:0.3s;
 }
-.gallery__link:hover{
-    color:chocolate;
+.cards__link:hover{
+color:chocolate;
 }
-.bmw-news{
+.category{
     display:grid;
     grid-gap:2rem;
-    grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
-    grid-auto-rows:minmax(250px, 1fr);
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    grid-auto-rows: minmax(250px,1fr);
     grid-auto-flow:dense;
-    padding:10%;
-    justify-content:center;
-    position:relative;
-    margin:0.5rem;
-  
+    padding:15%;
 }
-.bmw-news__gallery{
+.category__header{
     background-size:cover;
     background-position:center;
-    height:150px;
-    width:270px;
-    box-shadow: rgba(0, 0, 0, 0.590) 0px 5px 15px;
-  
+    position:relative;
+    height: 350px;
 }
-.bmw-news__gallery--bmwvirtual{
-    background-image:url(../images/bmw-news.jpg);
+.category__header--img1{
+    background-image:url(../images/bmw-categorias.jpg);
 }
-.bmw-news__gallery--bmw-newstock{
+.category__header--img2{
     background-image:url(../images/bmw-ocacion.jpg);
 }
-.bmw-news__gallery--bmw-ocacion{
-    background-image:url(../images/visita-virtual.jpg);
+.category__info{
+    position:relative;
+    top:98%;
 }
-.bmw-news__gallery--bmw-cita-online{
-    background-image:url(../images/cita-taller.jpg);
+.category__link{
+    text-decoration:none;
+    transition:0.3s;
+}
+.category__link:hover{
+    color:chocolate;
+}
+.nav-icons{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    padding:15%;
+    grid-gap:10px;
+}
+.nav-icons__icon{
+    background-color:lightgray;
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    position:relative;
+    top:-30%;
+}
+.fa-car:hover{
+    color:rgb(204, 78, 78);
+} 
+.fa-file-alt:hover{
+    color:rgb(204, 78, 78);
+}
+.fa-comment-alt:hover{
+    color:rgb(204, 78, 78);
+}
+.fa-id-card:hover{
+    color:rgb(204, 78, 78);
+   
+}
+.aside__items{
+    list-style:none;
+    margin:0.8px;
+}
+.aside__list{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:solid 1px rgb(184, 184, 184);
+ }
+ .aside__items{
+     cursor:pointer;
+     transition:0.3s;
+ }
+ .aside__items:hover{
+    color:rgb(199, 0, 0);
+ }
+.aside{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:lightgray;
+    height:20rem;
+    
 }
