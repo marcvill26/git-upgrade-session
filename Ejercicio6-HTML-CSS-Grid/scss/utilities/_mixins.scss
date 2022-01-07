@@ -1,0 +1,19 @@
+@mixin flexHeader($justify,$align,$height){
+    display: flex;
+    justify-content:$justify;
+    align-items:$align;
+    height: $height;
+    
+}
+@mixin linksNav ($decoration:none, $margin:1rem){
+    text-decoration: $decoration;
+    margin:$margin;
+}
+@mixin buttons($directionBu,$alignBu){
+    display:flex;
+    justify-content:$directionBu;
+    align-items: $alignBu;
+  
+}
+
+

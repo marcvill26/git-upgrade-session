@@ -1,0 +1,101 @@
+.buttons{
+    @include buttons(center,center);
+    position:relative;
+    left: 4%;
+    &__button{
+        position:relative;
+        top:30px;
+        margin:0.5rem;
+        color:$secondColor;
+        z-index:9;
+       
+        &::first-letter{
+            text-transform:uppercase;
+        }
+       
+    }
+    &__button--mody{
+        border:none;
+        background-color:$primaryColor;
+        width:80px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+       
+    }
+    
+    &__button--mody2{
+        border:none;
+        background-color:$primaryColor;
+        width:150px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+    
+    &__button--mody3{
+        border:none;
+        background-color:$primaryColor;
+        width:200px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+    
+    &__button--mody4{
+        border:none;
+        background-color:$primaryColor;
+        width:170px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+    
+    &__button--mody5{
+        border:none;
+        background-color:$primaryColor;
+        width:100px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+    
+    &__button--mody6{
+        border:none;
+        background-color:$primaryColor;
+        width:120px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+    
+    &__button--mody7{
+        border:none;
+        background-color:$primaryColor;
+        width:100px;
+        height:35px;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            background-color:rgb(133, 202, 4);
+        }
+    }
+}

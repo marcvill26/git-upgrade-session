@@ -1,0 +1,56 @@
+.cards{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ 
+
+    &__card{
+        background-color:$secondColor;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        position:relative;
+        top:70px;
+        margin:1.5rem;
+    }
+
+    &__image{
+        width: 450px;
+        height: 150px;
+    }
+    &__body{
+        width: 450px;
+    }
+    &__title{
+        padding:15px;
+        &::first-letter{
+            text-transform:uppercase;
+        }
+    }
+    &__info{
+        padding:15px;
+    }
+    &__price{
+        padding:15px;
+        
+    }
+    button{
+        position:relative;
+        margin:15px;
+        background:none;
+        border:solid 1px $primaryColor;
+        color:$titleColor;
+        width: 160px;
+        height: 40px;
+        left:35%;
+        cursor:pointer;
+        transition:0.3s;
+        &::first-letter{
+            text-transform:uppercase;
+        }
+        &:hover{
+            color:$primaryColor;
+        }
+    }
+
+}
