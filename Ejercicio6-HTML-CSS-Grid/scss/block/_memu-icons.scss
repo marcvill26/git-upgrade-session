@@ -1,0 +1,42 @@
+.icons-menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    margin:1rem;
+    &__icon{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        display:block;
+       border-right:solid 1px rgb(209, 206, 206);
+        background-color:rgb(231, 227, 227);
+        height: 80px;
+        width:240px;
+        padding:5px;
+        cursor:pointer;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        
+    }
+    span{
+        position:relative;
+        top:12px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:$primaryColor;
+       font-size: 30px;
+       transition:0.3s;
+       &:hover{
+           color:rgb(129, 197, 4);
+       }
+    }
+
+    &__title{
+        color:$letterColor;
+        &::first-letter{
+            text-transform:uppercase;
+        }
+    }
+}

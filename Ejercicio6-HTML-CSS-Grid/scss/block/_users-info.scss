@@ -1,0 +1,47 @@
+.users-info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:30px;
+
+    &__ayuda{
+        background-size:cover;
+        background-position:center;
+        height:240px;
+        width: 475px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin:20px;
+    }
+    &--img1{
+        background-image:url(/image/empresario.jpg);
+    }
+    &--img2{
+        background-image:url(/image/new-hunday.jpg);
+    }
+    &--img3{
+        background-image:url(/image/usuarios.jpg);
+    }
+    &__title{
+        text-align: start;
+        font-size:30px;
+        padding:15px;
+        color:white;
+       
+    }
+    button{
+        margin:15px;
+        background:none;
+        border:solid 1px $secondColor;
+        height:30px;
+        color:$secondColor;
+        cursor:pointer;
+        transition:0.3s;
+        &:hover{
+            color:black;
+        }
+    }
+    span{
+        font-family:$fontCorteI;
+    }
+}

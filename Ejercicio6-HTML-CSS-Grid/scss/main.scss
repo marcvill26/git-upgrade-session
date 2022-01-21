@@ -4,7 +4,12 @@
 @import '../scss/block/header';
 @import '../scss/block/buttons';
 @import '../scss/block/cards';
+@import '../scss/block/ofertas';
+@import '../scss/block/memu-icons';
+@import '../scss/block/users-info';
 @import '../scss/utilities/responsive';
+@import '../scss/block/menu-aside';
+
 body{
     font-family:$primaryFont;
     margin:0;
