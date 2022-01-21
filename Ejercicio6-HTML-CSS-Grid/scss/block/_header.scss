@@ -1,7 +1,7 @@
 .header{
     @include flexHeader(center, center, 4rem);
     position:relative;
-    left:5%;
+    left: -6%;
     
     &__title{
         color:$titleColor;
@@ -16,7 +16,7 @@
     &__contact{
         display:flex;
         position:relative;
-        left:12%;    
+        left:11%;    
     }
     &__link{
         @include linksNav();

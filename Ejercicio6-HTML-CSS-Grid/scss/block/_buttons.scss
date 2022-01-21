@@ -1,10 +1,11 @@
 .buttons{
     @include buttons(center,center);
     position:relative;
-    left: 4%;
+    
+    
     &__button{
         position:relative;
-        top:30px;
+       
         margin:0.5rem;
         color:$secondColor;
         z-index:9;
@@ -22,7 +23,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
        
     }
@@ -35,7 +36,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
     
@@ -47,7 +48,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
     
@@ -59,7 +60,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
     
@@ -71,7 +72,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
     
@@ -83,7 +84,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
     
@@ -95,7 +96,7 @@
         cursor:pointer;
         transition:0.3s;
         &:hover{
-            background-color:rgb(133, 202, 4);
+            background-color:rgb(113, 172, 5);
         }
     }
 }
